@@ -1,4 +1,5 @@
 <?php
+
 namespace Borkness\Phproxy\Tests;
 
 class Cow

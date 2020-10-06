@@ -3,7 +3,7 @@
 namespace Borkness\Phproxy;
 
 use Psr\Container\ContainerInterface;
-use \RuntimeException;
+use RuntimeException;
 
 abstract class Phproxy
 {
@@ -18,7 +18,7 @@ abstract class Phproxy
      */
     public static function getClassIdentifier()
     {
-        throw new RuntimeException("Class identifier not implemented");
+        throw new RuntimeException('Class identifier not implemented');
     }
 
     /**
@@ -39,7 +39,7 @@ abstract class Phproxy
 
     public static function __callStatic($name, $args)
     {
-        if(!static::$instance) {
+        if (!static::$instance) {
             $class = static::getClassIdentifier();
             static::$instance = self::$app->get($class);
         }
