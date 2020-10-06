@@ -1,5 +1,7 @@
 # Phproxy
 
+![StyleCI](https://github.styleci.io/repos/301836154/shield?branch=master) [![Build Status](https://travis-ci.org/Borkness/phproxy.svg?branch=master)](https://travis-ci.org/Borkness/phproxy)
+
 Phproxy is a class that can be used to statically call the methods of an underlying class similar to Facades in Laravel.
 
 ## Usage
