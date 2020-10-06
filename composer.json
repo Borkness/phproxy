@@ -1,0 +1,26 @@
+{
+    "name": "borkness/phproxy",
+    "description": "Simple trait to allow static proxies similar to Laravel Facades",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Williams",
+            "email": "aw@thebearded.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Borkness\\Phproxy\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Borkness\\Phproxy\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "php-di/php-di": "^6.2",
+        "phpunit/phpunit": "^9.3"
+    }
+}
